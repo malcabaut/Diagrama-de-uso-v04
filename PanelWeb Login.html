@@ -1,0 +1,252 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FichOn - App Móvil</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <header class="bg-white shadow-sm border-b border-slate-200 sticky top-0 z-50"
+        style="box-sizing: border-box; border-width: 0px 0px 1px; border-style: solid; border-color: oklch(0.929 0.013 255.508); border-image: initial; margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); position: sticky; top: 0px; z-index: 50; background-color: rgb(255, 255, 255); --tw-shadow: 0 1px 3px 0 #0000001a, 0 1px 2px -1px #0000001a; box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px; color: oklch(0.145 0 0); font-family: ui-sans-serif, system-ui, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 16px;">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6"
+            style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); margin-inline: auto; max-width: 1280px; padding-inline: 32px; padding-block: 24px;">
+            <div class="flex items-center justify-between"
+                style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); display: flex; align-items: center; justify-content: space-between;">
+                <div
+                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5);">
+                    <h1 class="text-slate-900"
+                        style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-size: 24px; font-weight: 500; line-height: 1.5; color: oklch(0.208 0.042 265.755);">
+                        Sistema FichOn</h1>
+                    <p class="text-slate-600 mt-1"
+                        style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 4px 0px 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); line-height: 1.5; color: oklch(0.446 0.043 257.281);">
+                        Diseño de Interfaz y Flujo de Navegación</p>
+                </div>
+                <div class="flex items-center gap-2"
+                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); display: flex; align-items: center; gap: 8px;">
+
+                    <div class="flex gap-3">
+                        <!-- Botón Flujo -->
+                        <a href="flujo.html">
+                            <button
+                                class="flex items-center gap-2 px-4 py-2 rounded-lg bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-git-branch w-4 h-4" aria-hidden="true">
+                                    <line x1="6" x2="6" y1="3" y2="15"></line>
+                                    <circle cx="18" cy="6" r="3"></circle>
+                                    <circle cx="6" cy="18" r="3"></circle>
+                                    <path d="M18 9a9 9 0 0 1-9 9"></path>
+                                </svg>
+                                Flujo
+                            </button>
+                        </a>
+                        <!-- Botón Panel Web -->
+                        <a href="PanelWeb Login.html">
+                            <button
+                                class="flex items-center gap-2 px-4 py-2 rounded-lg bg-green-600 text-white hover:bg-green-700 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-monitor w-4 h-4" aria-hidden="true">
+                                    <rect width="20" height="14" x="2" y="3" rx="2"></rect>
+                                    <line x1="8" x2="16" y1="21" y2="21"></line>
+                                    <line x1="12" x2="12" y1="17" y2="21"></line>
+                                </svg>
+                                Panel Web
+                            </button>
+                        </a>
+
+
+                        <!-- Botón App Móvil -->
+                        <a href="AppMovil Login.html">
+                            <button
+                                class="flex items-center gap-2 px-4 py-2 rounded-lg bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-smartphone w-4 h-4" aria-hidden="true">
+                                    <rect width="14" height="20" x="5" y="2" rx="2" ry="2"></rect>
+                                    <path d="M12 18h.01"></path>
+                                </svg>
+                                App Móvil
+                            </button>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+    </header>
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8"
+        style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); margin-inline: auto; max-width: 1280px; padding-inline: 24px; padding-block: 32px; color: oklch(0.145 0 0); font-family: ui-sans-serif, system-ui, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 16px; background-color: rgb(255, 255, 255);">
+        <div class="space-y-8"
+            style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5);">
+            <div class="bg-white rounded-xl shadow-lg p-6"
+                style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 24px; outline-color: oklab(0.708 0 0 / 0.5); --tw-space-y-reverse: 0; margin-block: 0px 32px; border-radius: 14px; --tw-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a; box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px;">
+                <h2 class="text-slate-900 mb-4"
+                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px 0px 16px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-size: inherit; font-weight: inherit; color: oklch(0.208 0.042 265.755);">
+                    Pantallas del Panel Web</h2>
+                <div class="flex flex-wrap gap-2">
+
+                    <!-- Login (activo) -->
+                    <a href="PanelWeb Login.html" aria-current="page">
+                        <button class="px-4 py-2 rounded-lg bg-green-600 text-white hover:bg-green-700">
+                            Login
+                        </button>
+                    </a>
+
+                    <!-- Dashboard -->
+                    <a href="PanelWeb Dashboard.html">
+                        <button class="px-4 py-2 rounded-lg bg-slate-100 text-slate-700 hover:bg-slate-200">
+                            Dashboard
+                        </button>
+                    </a>
+
+                    <!-- Empleados -->
+                    <a href="PanelWeb Empleados.html">
+                        <button class="px-4 py-2 rounded-lg bg-slate-100 text-slate-700 hover:bg-slate-200">
+                            Empleados
+                        </button>
+                    </a>
+
+                    <!-- Detalle Empleado -->
+                    <a href="PanelWeb Detalle Empleado.html">
+                        <button class="px-4 py-2 rounded-lg bg-slate-100 text-slate-700 hover:bg-slate-200">
+                            Detalle Empleado
+                        </button>
+                    </a>
+
+                    <!-- Solicitudes -->
+                    <a href="PanelWeb Solicitudes.html">
+                        <button class="px-4 py-2 rounded-lg bg-slate-100 text-slate-700 hover:bg-slate-200">
+                            Solicitudes
+                        </button>
+                    </a>
+
+                    <!-- Turnos -->
+                    <a href="PanelWeb Turnos.html">
+                        <button class="px-4 py-2 rounded-lg bg-slate-100 text-slate-700 hover:bg-slate-200">
+                            Turnos
+                        </button>
+                    </a>
+
+                    <!-- Informes -->
+                    <a href="PanelWeb Informes.html">
+                        <button class="px-4 py-2 rounded-lg bg-slate-100 text-slate-700 hover:bg-slate-200">
+                            Informes
+                        </button>
+                    </a>
+
+                    <!-- Configuraciones -->
+                    <a href="PanelWeb Configuraciones.html">
+                        <button class="px-4 py-2 rounded-lg bg-slate-100 text-slate-700 hover:bg-slate-200">
+                            Configuraciones
+                        </button>
+                    </a>
+
+                </div>
+
+            </div>
+            <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-xl shadow-lg p-8"
+                style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 32px; outline-color: oklab(0.708 0 0 / 0.5); --tw-space-y-reverse: 0; margin-block: 0px 32px; border-radius: 14px; --tw-gradient-position: to bottom right in oklab; background-image: linear-gradient(to right bottom, oklch(0.982 0.018 155.826) 0%, oklch(0.962 0.044 156.743) 100%); --tw-gradient-from: oklch(0.982 0.018 155.826); --tw-gradient-stops: to bottom right in oklab, oklch(0.982 0.018 155.826) 0%, oklch(0.962 0.044 156.743) 100%; --tw-gradient-to: oklch(0.962 0.044 156.743); --tw-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a; box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px;">
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden"
+                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); overflow: hidden; border-radius: 14px; --tw-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a; box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px;">
+                    <div class="p-8"
+                        style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 32px; outline-color: oklab(0.708 0 0 / 0.5);">
+                        <h3 class="text-slate-900 mb-6 text-center"
+                            style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px 0px 24px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-size: inherit; font-weight: inherit; text-align: center; color: oklch(0.208 0.042 265.755);">
+                            Login Administrador</h3>
+                        <div class="max-w-md mx-auto space-y-6"
+                            style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); margin-inline: auto; max-width: 448px;">
+                            <div class="text-center mb-8"
+                                style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px 0px 32px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); --tw-space-y-reverse: 0; margin-block: 0px 24px; text-align: center;">
+                                <div class="w-20 h-20 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-4"
+                                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px 0px 16px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); margin-inline: auto; display: flex; height: 80px; width: 80px; align-items: center; justify-content: center; border-radius: 3.40282e+38px; background-color: oklch(0.627 0.194 149.214);">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-clock w-10 h-10 text-white"
+                                        aria-hidden="true">
+                                        <path d="M12 6v6l4 2"></path>
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                    </svg>
+                                </div>
+                                <h2 class="text-slate-900"
+                                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-size: inherit; font-weight: inherit; color: oklch(0.208 0.042 265.755);">
+                                    Panel de Administración</h2>
+                                <p class="text-slate-600"
+                                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); color: oklch(0.446 0.043 257.281);">
+                                    Sistema FichOn</p>
+                            </div>
+                            <div
+                                style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); --tw-space-y-reverse: 0; margin-block: 0px 24px;">
+                                <label class="block text-slate-700 mb-2"
+                                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px 0px 8px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); display: block; color: oklch(0.372 0.044 257.287);">Email
+                                    Corporativo</label><input type="email" placeholder="admin@empresa.com"
+                                    class="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                                    style="border-width: 1px; border-style: solid; border-color: oklch(0.869 0.022 252.894); margin: 0px; padding-top: 0px; padding-bottom: 0px; outline-color: oklab(0.708 0 0 / 0.5); font: inherit; letter-spacing: inherit; opacity: 1; border-radius: 10px; width: 448px; padding-inline: 16px; padding-block: 12px;">
+                            </div>
+                            <div
+                                style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); --tw-space-y-reverse: 0; margin-block: 0px 24px;">
+                                <label class="block text-slate-700 mb-2"
+                                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px 0px 8px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); display: block; color: oklch(0.372 0.044 257.287);">Contraseña</label><input
+                                    type="password" placeholder="••••••••"
+                                    class="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                                    style="border-width: 1px; border-style: solid; border-color: oklch(0.869 0.022 252.894); margin: 0px; padding-top: 0px; padding-bottom: 0px; outline-color: oklab(0.708 0 0 / 0.5); font: inherit; letter-spacing: inherit; opacity: 1; border-radius: 10px; width: 448px; padding-inline: 16px; padding-block: 12px;">
+                            </div>
+                            <div class="flex items-center justify-between"
+                                style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); --tw-space-y-reverse: 0; margin-block: 0px 24px; display: flex; align-items: center; justify-content: space-between;">
+                                <label class="flex items-center gap-2"
+                                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); display: flex; align-items: center; gap: 8px;"><input
+                                        type="checkbox" class="rounded border-slate-300"
+                                        style="border-width: 0px; border-style: solid; border-color: oklch(0.869 0.022 252.894); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font: inherit; letter-spacing: inherit; opacity: 1; border-radius: 0.25rem;"><span
+                                        class="text-slate-700 text-sm"
+                                        style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-size: 14px; line-height: 1.42857; color: oklch(0.372 0.044 257.287);">Recordarme</span></label><a
+                                    href="https://106b18fa-13af-45c3-bd7c-2d82a6e78c9f-v2-figmaiframepreview.figma.site/#"
+                                    class="text-green-600 hover:text-green-700 text-sm"
+                                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); color: oklch(0.627 0.194 149.214); text-decoration: inherit; font-size: 14px; line-height: 1.42857;">¿Olvidaste
+                                    tu contraseña?</a>
+                            </div><button
+                                class="w-full bg-green-600 text-white py-3 rounded-lg hover:bg-green-700 transition-colors"
+                                style="border-width: 0px; border-style: solid; border-color: rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font: inherit; letter-spacing: inherit; color: rgb(255, 255, 255); opacity: 1; background-color: oklch(0.627 0.194 149.214); border-radius: 10px; appearance: button; --tw-space-y-reverse: 0; margin-block: 0px 24px; width: 448px; padding-block: 12px; transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 0.15s;">Acceder
+                                al Panel</button>
+                            <div class="bg-green-50 border border-green-200 rounded-lg p-4 mt-6"
+                                style="box-sizing: border-box; border: 1px solid oklch(0.925 0.084 155.995); margin: 24px 0px 0px; padding: 16px; outline-color: oklab(0.708 0 0 / 0.5); border-radius: 10px; background-color: oklch(0.982 0.018 155.826);">
+                                <p class="text-green-800 text-sm flex items-start gap-2"
+                                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); display: flex; align-items: flex-start; gap: 8px; font-size: 14px; line-height: 1.42857; color: oklch(0.448 0.119 151.328);">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-circle-alert w-4 h-4 flex-shrink-0 mt-0.5"
+                                        aria-hidden="true">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <line x1="12" x2="12" y1="8" y2="12"></line>
+                                        <line x1="12" x2="12.01" y1="16" y2="16"></line>
+                                    </svg><span
+                                        style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5);">Solo
+                                        usuarios con rol de Administrador pueden acceder a este panel.</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl shadow-lg p-6"
+                style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 24px; outline-color: oklab(0.708 0 0 / 0.5); border-radius: 14px; --tw-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a; box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px;">
+                <h3 class="text-slate-900 mb-3"
+                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px 0px 12px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-size: 18px; font-weight: 500; line-height: 1.5; color: oklch(0.208 0.042 265.755);">
+                    Descripción de la Pantalla</h3>
+                <div class="text-slate-700 space-y-2"
+                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); color: oklch(0.372 0.044 257.287);">
+                    <p
+                        style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); line-height: 1.5;">
+                        Pantalla de autenticación exclusiva para administradores. Incluye validación de credenciales
+                        corporativas y opción de recordar sesión. Solo usuarios con rol de administrador pueden acceder
+                        al panel web.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

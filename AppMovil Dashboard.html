@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FichOn - App Móvil</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <header class="bg-white shadow-sm border-b border-slate-200 sticky top-0 z-50"
+        style="box-sizing: border-box; border-width: 0px 0px 1px; border-style: solid; border-color: oklch(0.929 0.013 255.508); border-image: initial; margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); position: sticky; top: 0px; z-index: 50; background-color: rgb(255, 255, 255); --tw-shadow: 0 1px 3px 0 #0000001a, 0 1px 2px -1px #0000001a; box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px; color: oklch(0.145 0 0); font-family: ui-sans-serif, system-ui, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 16px;">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6"
+            style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); margin-inline: auto; max-width: 1280px; padding-inline: 32px; padding-block: 24px;">
+            <div class="flex items-center justify-between"
+                style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); display: flex; align-items: center; justify-content: space-between;">
+                <div
+                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5);">
+                    <h1 class="text-slate-900"
+                        style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-size: 24px; font-weight: 500; line-height: 1.5; color: oklch(0.208 0.042 265.755);">
+                        Sistema FichOn</h1>
+                    <p class="text-slate-600 mt-1"
+                        style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 4px 0px 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); line-height: 1.5; color: oklch(0.446 0.043 257.281);">
+                        Diseño de Interfaz y Flujo de Navegación</p>
+                </div>
+                <div class="flex items-center gap-2"
+                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); display: flex; align-items: center; gap: 8px;">
+
+                    <div class="flex gap-3">
+                        <!-- Botón Flujo -->
+                        <a href="flujo.html">
+                            <button
+                                class="flex items-center gap-2 px-4 py-2 rounded-lg bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-git-branch w-4 h-4" aria-hidden="true">
+                                    <line x1="6" x2="6" y1="3" y2="15"></line>
+                                    <circle cx="18" cy="6" r="3"></circle>
+                                    <circle cx="6" cy="18" r="3"></circle>
+                                    <path d="M18 9a9 9 0 0 1-9 9"></path>
+                                </svg>
+                                Flujo
+                            </button>
+                        </a>
+
+                        <!-- Botón Panel Web -->
+                        <a href="PanelWeb Login.html">
+                            <button
+                                class="flex items-center gap-2 px-4 py-2 rounded-lg bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-monitor w-4 h-4" aria-hidden="true">
+                                    <rect width="20" height="14" x="2" y="3" rx="2"></rect>
+                                    <line x1="8" x2="16" y1="21" y2="21"></line>
+                                    <line x1="12" x2="12" y1="17" y2="21"></line>
+                                </svg>
+                                Panel Web
+                            </button>
+                        </a>
+
+                        <!-- Botón App Móvil -->
+                        <a href="AppMovil Login.html">
+                            <button
+                                class="flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-smartphone w-4 h-4" aria-hidden="true">
+                                    <rect width="14" height="20" x="5" y="2" rx="2" ry="2"></rect>
+                                    <path d="M12 18h.01"></path>
+                                </svg>
+                                App Móvil
+                            </button>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+    </header>
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8"
+        style="font-size: 16px; box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); margin-inline: auto; max-width: 1280px; padding-inline: 32px; padding-block: 32px; color: oklch(0.145 0 0); font-family: ui-sans-serif, system-ui, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; background-color: rgb(255, 255, 255);">
+        <div class="space-y-8"
+            style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5);">
+            <div class="bg-white rounded-xl shadow-lg p-6"
+                style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 24px; outline-color: oklab(0.708 0 0 / 0.5); --tw-space-y-reverse: 0; margin-block: 0px 32px; border-radius: 14px; --tw-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a; box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px;">
+                <h2 class="text-slate-900 mb-4"
+                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px 0px 16px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-size: inherit; font-weight: inherit; color: oklch(0.208 0.042 265.755);">
+                    Pantallas de la App Móvil</h2>
+                <div class="flex flex-wrap gap-2"
+                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); display: flex; flex-wrap: wrap; gap: 8px;">
+                    <a href="AppMovil Login.html">
+                        <button
+                            class="px-4 py-2 rounded-lg transition-colors bg-slate-100 text-slate-700 hover:bg-slate-200"
+                            style="border-width: 0px; border-style: solid; border-color: rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font: inherit; letter-spacing: inherit; color: oklch(0.372 0.044 257.287); opacity: 1; background-color: oklch(0.968 0.007 247.896); border-radius: 10px; appearance: button; padding-inline: 16px; padding-block: 8px; transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 0.15s;">
+                            Login
+                        </button>
+                    </a>
+
+                    <a href="AppMovil Dashboard.html">
+                        <button class="px-4 py-2 rounded-lg transition-colors bg-blue-600 text-white hover:bg-blue-700"
+                            style="border-width: 0px; border-style: solid; border-color: rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font: inherit; letter-spacing: inherit; color: rgb(255, 255, 255); opacity: 1; background-color: oklch(0.546 0.245 262.881); border-radius: 10px; appearance: button; padding-inline: 16px; padding-block: 8px; transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 0.15s;">
+                            Dashboard
+                        </button>
+                    </a>
+
+                    <a href="AppMovil Fichar.html">
+                        <button
+                            class="px-4 py-2 rounded-lg transition-colors bg-slate-100 text-slate-700 hover:bg-slate-200"
+                            style="border-width: 0px; border-style: solid; border-color: rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font: inherit; letter-spacing: inherit; color: oklch(0.372 0.044 257.287); opacity: 1; background-color: oklch(0.968 0.007 247.896); border-radius: 10px; appearance: button; padding-inline: 16px; padding-block: 8px; transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 0.15s;">Fichar</button>
+                    </a>
+                    <a href="AppMovil Historial.html">
+                        <button
+                            class="px-4 py-2 rounded-lg transition-colors bg-slate-100 text-slate-700 hover:bg-slate-200"
+                            style="border-width: 0px; border-style: solid; border-color: rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font: inherit; letter-spacing: inherit; color: oklch(0.372 0.044 257.287); opacity: 1; background-color: oklch(0.968 0.007 247.896); border-radius: 10px; appearance: button; padding-inline: 16px; padding-block: 8px; transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 0.15s;">Historial</button>
+                    </a>
+                    <a href="AppMovil Solicitudes.html">
+                        <button
+                            class="px-4 py-2 rounded-lg transition-colors bg-slate-100 text-slate-700 hover:bg-slate-200"
+                            style="border-width: 0px; border-style: solid; border-color: rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font: inherit; letter-spacing: inherit; color: oklch(0.372 0.044 257.287); opacity: 1; background-color: oklch(0.968 0.007 247.896); border-radius: 10px; appearance: button; padding-inline: 16px; padding-block: 8px; transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 0.15s;">Solicitudes</button>
+                    </a>
+                    <a href="AppMovil Mi Turno.html">
+                        <button
+                            class="px-4 py-2 rounded-lg transition-colors bg-slate-100 text-slate-700 hover:bg-slate-200"
+                            style="border-width: 0px; border-style: solid; border-color: rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font: inherit; letter-spacing: inherit; color: oklch(0.372 0.044 257.287); opacity: 1; background-color: oklch(0.968 0.007 247.896); border-radius: 10px; appearance: button; padding-inline: 16px; padding-block: 8px; transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 0.15s;">Mi
+                            Turno</button>
+                    </a>
+                    <a href="AppMovil Perfil.html">
+                        <button
+                            class="px-4 py-2 rounded-lg transition-colors bg-slate-100 text-slate-700 hover:bg-slate-200"
+                            style="border-width: 0px; border-style: solid; border-color: rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font: inherit; letter-spacing: inherit; color: oklch(0.372 0.044 257.287); opacity: 1; background-color: oklch(0.968 0.007 247.896); border-radius: 10px; appearance: button; padding-inline: 16px; padding-block: 8px; transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 0.15s;">Perfil</button>
+                    </a>
+                </div>
+            </div>
+            <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl shadow-lg p-8"
+                style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 32px; outline-color: oklab(0.708 0 0 / 0.5); --tw-space-y-reverse: 0; margin-block: 0px 32px; border-radius: 14px; --tw-gradient-position: to bottom right in oklab; background-image: linear-gradient(to right bottom, oklch(0.97 0.014 254.604) 0%, oklch(0.932 0.032 255.585) 100%); --tw-gradient-from: oklch(0.97 0.014 254.604); --tw-gradient-stops: to bottom right in oklab, oklch(0.97 0.014 254.604) 0%, oklch(0.932 0.032 255.585) 100%; --tw-gradient-to: oklch(0.932 0.032 255.585); --tw-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a; box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px;">
+                <div class="mx-auto max-w-sm"
+                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); margin-inline: auto; max-width: 384px;">
+                    <div class="bg-slate-800 rounded-t-3xl pt-6 px-6"
+                        style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 24px 0px 0px; outline-color: oklab(0.708 0 0 / 0.5); border-top-left-radius: 24px; border-top-right-radius: 24px; background-color: oklch(0.279 0.041 260.031); padding-inline: 24px;">
+                        <div class="flex items-center justify-between mb-4"
+                            style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px 0px 16px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); display: flex; align-items: center; justify-content: space-between;">
+                            <div class="flex items-center gap-2"
+                                style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); display: flex; align-items: center; gap: 8px;">
+                                <div class="w-2 h-2 bg-red-500 rounded-full"
+                                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); height: 8px; width: 8px; border-radius: 3.40282e+38px; background-color: oklch(0.637 0.237 25.331);">
+                                </div>
+                                <div class="w-2 h-2 bg-yellow-500 rounded-full"
+                                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); height: 8px; width: 8px; border-radius: 3.40282e+38px; background-color: oklch(0.795 0.184 86.047);">
+                                </div>
+                                <div class="w-2 h-2 bg-green-500 rounded-full"
+                                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); height: 8px; width: 8px; border-radius: 3.40282e+38px; background-color: oklch(0.723 0.219 149.579);">
+                                </div>
+                            </div><span class="text-white text-xs"
+                                style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-size: 12px; line-height: 1.33333; color: rgb(255, 255, 255);">FichOn
+                                App</span>
+                            <div class="flex items-center gap-1"
+                                style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); display: flex; align-items: center; gap: 4px;">
+                                <div class="text-white text-xs"
+                                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-size: 12px; line-height: 1.33333; color: rgb(255, 255, 255);">
+                                    5G</div>
+                                <div class="text-white text-xs"
+                                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-size: 12px; line-height: 1.33333; color: rgb(255, 255, 255);">
+                                    100%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white border-x-4 border-slate-800 min-h-[600px] p-6 -mt-4"
+                        style="box-sizing: border-box; border: 0px solid oklch(0.279 0.041 260.031); margin: -16px 0px 0px; padding: 24px; outline-color: oklab(0.708 0 0 / 0.5); min-height: 600px; border-inline-style: solid; border-inline-width: 4px;">
+                        <h3 class="text-slate-900 mb-4 text-center"
+                            style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px 0px 16px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-size: inherit; font-weight: inherit; text-align: center; color: oklch(0.208 0.042 265.755);">
+                            Inicio</h3>
+                        <div class="space-y-6"
+                            style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5);">
+                            <div class="flex items-center justify-between"
+                                style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); --tw-space-y-reverse: 0; margin-block: 0px 24px; display: flex; align-items: center; justify-content: space-between;">
+                                <div
+                                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5);">
+                                    <p class="text-slate-600"
+                                        style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); line-height: 1.5; color: oklch(0.446 0.043 257.281);">
+                                        Hola,</p>
+                                    <h3 class="text-slate-900"
+                                        style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-size: 18px; font-weight: 500; line-height: 1.5; color: oklch(0.208 0.042 265.755);">
+                                        Juan Pérez</h3>
+                                </div>
+                                <div class="flex items-center gap-2"
+                                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); display: flex; align-items: center; gap: 8px;">
+                                    <button class="p-2 bg-slate-100 rounded-lg relative"
+                                        style="border-width: 0px; border-style: solid; border-color: rgba(0, 0, 0, 0.1); margin: 0px; padding: 8px; outline-color: oklab(0.708 0 0 / 0.5); font: inherit; letter-spacing: inherit; opacity: 1; background-color: oklch(0.968 0.007 247.896); border-radius: 10px; appearance: button; position: relative;"><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="lucide lucide-bell w-5 h-5 text-slate-600" aria-hidden="true">
+                                            <path d="M10.268 21a2 2 0 0 0 3.464 0"></path>
+                                            <path
+                                                d="M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326">
+                                            </path>
+                                        </svg><span class="absolute top-1 right-1 w-2 h-2 bg-red-500 rounded-full"
+                                            style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); position: absolute; top: 4px; right: 4px; height: 8px; width: 8px; border-radius: 3.40282e+38px; background-color: oklch(0.637 0.237 25.331);"></span></button><button
+                                        class="p-2 bg-slate-100 rounded-lg"
+                                        style="border-width: 0px; border-style: solid; border-color: rgba(0, 0, 0, 0.1); margin: 0px; padding: 8px; outline-color: oklab(0.708 0 0 / 0.5); font: inherit; letter-spacing: inherit; opacity: 1; background-color: oklch(0.968 0.007 247.896); border-radius: 10px; appearance: button;"><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="lucide lucide-menu w-5 h-5 text-slate-600" aria-hidden="true">
+                                            <path d="M4 5h16"></path>
+                                            <path d="M4 12h16"></path>
+                                            <path d="M4 19h16"></path>
+                                        </svg></button>
+                                </div>
+                            </div>
+                            <div class="bg-gradient-to-br from-blue-600 to-blue-700 rounded-2xl p-6 text-white"
+                                style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 24px; outline-color: oklab(0.708 0 0 / 0.5); --tw-space-y-reverse: 0; margin-block: 0px 24px; border-radius: 16px; --tw-gradient-position: to bottom right in oklab; background-image: linear-gradient(to right bottom, oklch(0.546 0.245 262.881) 0%, oklch(0.488 0.243 264.376) 100%); --tw-gradient-from: oklch(0.546 0.245 262.881); --tw-gradient-stops: to bottom right in oklab, oklch(0.546 0.245 262.881) 0%, oklch(0.488 0.243 264.376) 100%; --tw-gradient-to: oklch(0.488 0.243 264.376); color: rgb(255, 255, 255);">
+                                <div class="flex items-center justify-between mb-4"
+                                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px 0px 16px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); display: flex; align-items: center; justify-content: space-between;">
+                                    <span
+                                        style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5);">Estado
+                                        Actual</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round"
+                                        class="lucide lucide-clock w-5 h-5" aria-hidden="true">
+                                        <path d="M12 6v6l4 2"></path>
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                    </svg>
+                                </div>
+                                <p class="text-3xl mb-2"
+                                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px 0px 8px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-size: 30px; line-height: 1.2;">
+                                    Fuera de jornada</p>
+                                <p class="text-blue-200"
+                                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); line-height: 1.5; color: oklch(0.882 0.059 254.128);">
+                                    Última entrada: 08:00 AM</p>
+                                <p class="text-blue-200"
+                                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); line-height: 1.5; color: oklch(0.882 0.059 254.128);">
+                                    Última salida: 17:00 PM</p>
+                            </div><button
+                                class="w-full bg-green-500 text-white py-6 rounded-2xl hover:bg-green-600 transition-all transform hover:scale-105 shadow-lg"
+                                style="border-width: 0px; border-style: solid; border-color: rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font: inherit; letter-spacing: inherit; color: rgb(255, 255, 255); opacity: 1; background-color: oklch(0.723 0.219 149.579); border-radius: 16px; appearance: button; --tw-space-y-reverse: 0; margin-block: 0px 24px; width: 329.6px; transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) skewX(0deg) skewY(0deg); padding-block: 24px; --tw-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a; box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px; transition-property: all; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 0.15s;">
+                                <div class="flex flex-col items-center gap-2"
+                                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); display: flex; flex-direction: column; align-items: center; gap: 8px;">
+                                    <div class="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center"
+                                        style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); display: flex; height: 64px; width: 64px; align-items: center; justify-content: center; border-radius: 3.40282e+38px; background-color: oklab(0.999994 0.0000455678 0.0000200868 / 0.2);">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="lucide lucide-clock w-8 h-8" aria-hidden="true">
+                                            <path d="M12 6v6l4 2"></path>
+                                            <circle cx="12" cy="12" r="10"></circle>
+                                        </svg>
+                                    </div><span class="text-xl"
+                                        style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-size: 20px; line-height: 1.4;">Registrar
+                                        Entrada</span><span class="text-sm text-green-100"
+                                        style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-size: 14px; line-height: 1.42857; color: oklch(0.962 0.044 156.743);">Pulsa
+                                        para fichar</span>
+                                </div>
+                            </button>
+                            <div class="grid grid-cols-2 gap-4"
+                                style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); --tw-space-y-reverse: 0; margin-block: 0px 24px; display: grid; grid-template-columns: repeat(2, minmax(0px, 1fr)); gap: 16px;">
+                                <div class="bg-slate-50 rounded-xl p-4"
+                                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 16px; outline-color: oklab(0.708 0 0 / 0.5); border-radius: 14px; background-color: oklch(0.984 0.003 247.858);">
+                                    <div class="flex items-center gap-2 text-slate-600 mb-2"
+                                        style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px 0px 8px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); display: flex; align-items: center; gap: 8px; color: oklch(0.446 0.043 257.281);">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="lucide lucide-clock w-4 h-4" aria-hidden="true">
+                                            <path d="M12 6v6l4 2"></path>
+                                            <circle cx="12" cy="12" r="10"></circle>
+                                        </svg><span class="text-xs"
+                                            style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-size: 12px; line-height: 1.33333;">Horas
+                                            hoy</span>
+                                    </div>
+                                    <p class="text-2xl text-slate-900"
+                                        style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-size: 24px; line-height: 1.33333; color: oklch(0.208 0.042 265.755);">
+                                        8:00h</p>
+                                </div>
+                                <div class="bg-slate-50 rounded-xl p-4"
+                                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 16px; outline-color: oklab(0.708 0 0 / 0.5); border-radius: 14px; background-color: oklch(0.984 0.003 247.858);">
+                                    <div class="flex items-center gap-2 text-slate-600 mb-2"
+                                        style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px 0px 8px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); display: flex; align-items: center; gap: 8px; color: oklch(0.446 0.043 257.281);">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="lucide lucide-calendar w-4 h-4" aria-hidden="true">
+                                            <path d="M8 2v4"></path>
+                                            <path d="M16 2v4"></path>
+                                            <rect width="18" height="18" x="3" y="4" rx="2"></rect>
+                                            <path d="M3 10h18"></path>
+                                        </svg><span class="text-xs"
+                                            style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-size: 12px; line-height: 1.33333;">Este
+                                            mes</span>
+                                    </div>
+                                    <p class="text-2xl text-slate-900"
+                                        style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-size: 24px; line-height: 1.33333; color: oklch(0.208 0.042 265.755);">
+                                        160h</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-slate-800 rounded-b-3xl h-8"
+                        style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); height: 32px; border-bottom-right-radius: 24px; border-bottom-left-radius: 24px; background-color: oklch(0.279 0.041 260.031);">
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl shadow-lg p-6"
+                style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 24px; outline-color: oklab(0.708 0 0 / 0.5); border-radius: 14px; --tw-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a; box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px;">
+                <h3 class="text-slate-900 mb-3"
+                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px 0px 12px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-size: 18px; font-weight: 500; line-height: 1.5; color: oklch(0.208 0.042 265.755);">
+                    Descripción de la Pantalla</h3>
+                <div class="text-slate-700 space-y-2"
+                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); color: oklch(0.372 0.044 257.287);">
+                    <p
+                        style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); line-height: 1.5;">
+                        Pantalla principal que muestra el estado actual del empleado, botón destacado para fichar,
+                        estadísticas rápidas de horas trabajadas y navegación inferior para acceso rápido a todas las
+                        funciones.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

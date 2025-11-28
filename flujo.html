@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FichOn - App Móvil</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <header class="bg-white shadow-sm border-b border-slate-200 sticky top-0 z-50"
+        style="box-sizing: border-box; border-width: 0px 0px 1px; border-style: solid; border-color: oklch(0.929 0.013 255.508); border-image: initial; margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); position: sticky; top: 0px; z-index: 50; background-color: rgb(255, 255, 255); --tw-shadow: 0 1px 3px 0 #0000001a, 0 1px 2px -1px #0000001a; box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px; color: oklch(0.145 0 0); font-family: ui-sans-serif, system-ui, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 16px;">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6"
+            style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); margin-inline: auto; max-width: 1280px; padding-inline: 32px; padding-block: 24px;">
+            <div class="flex items-center justify-between"
+                style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); display: flex; align-items: center; justify-content: space-between;">
+                <div
+                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5);">
+                    <h1 class="text-slate-900"
+                        style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-size: 24px; font-weight: 500; line-height: 1.5; color: oklch(0.208 0.042 265.755);">
+                        Sistema FichOn</h1>
+                    <p class="text-slate-600 mt-1"
+                        style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 4px 0px 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); line-height: 1.5; color: oklch(0.446 0.043 257.281);">
+                        Diseño de Interfaz y Flujo de Navegación</p>
+                </div>
+                <div class="flex items-center gap-2"
+                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); display: flex; align-items: center; gap: 8px;">
+
+                    <div class="flex gap-3">
+                        <!-- Botón Flujo -->
+                        <a href="flujo.html">
+                            <button
+                                class="flex items-center gap-2 px-4 py-2 rounded-lg bg-purple-600 text-white hover:bg-purple-700 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-git-branch w-4 h-4" aria-hidden="true">
+                                    <line x1="6" x2="6" y1="3" y2="15"></line>
+                                    <circle cx="18" cy="6" r="3"></circle>
+                                    <circle cx="6" cy="18" r="3"></circle>
+                                    <path d="M18 9a9 9 0 0 1-9 9"></path>
+                                </svg>
+                                Flujo
+                            </button>
+                        </a>
+
+                        <!-- Botón Panel Web -->
+                        <a href="PanelWeb Login.html">
+                            <button
+                                class="flex items-center gap-2 px-4 py-2 rounded-lg bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-monitor w-4 h-4" aria-hidden="true">
+                                    <rect width="20" height="14" x="2" y="3" rx="2"></rect>
+                                    <line x1="8" x2="16" y1="21" y2="21"></line>
+                                    <line x1="12" x2="12" y1="17" y2="21"></line>
+                                </svg>
+                                Panel Web
+                            </button>
+                        </a>
+
+                        <!-- Botón App Móvil -->
+                        <a href="AppMovil Login.html">
+                            <button
+                                class="flex items-center gap-2 px-4 py-2 rounded-lg bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-smartphone w-4 h-4" aria-hidden="true">
+                                    <rect width="14" height="20" x="5" y="2" rx="2" ry="2"></rect>
+                                    <path d="M12 18h.01"></path>
+                                </svg>
+                                App Móvil
+                            </button>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8"
+        style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); margin-inline: auto; max-width: 1280px; padding-inline: 32px; padding-block: 32px; color: oklch(0.145 0 0); font-family: ui-sans-serif, system-ui, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 16px; background-color: rgb(255, 255, 255);">
+        <div class="space-y-8"
+            style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5);">
+            <div class="bg-white rounded-xl shadow-lg p-8"
+                style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 32px; outline-color: oklab(0.708 0 0 / 0.5); --tw-space-y-reverse: 0; margin-block: 0px 32px; border-radius: 14px; --tw-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a; box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px;">
+                <h2 class="text-slate-900 mb-6"
+                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px 0px 24px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-size: 20px; font-weight: 500; line-height: 1.5; color: oklch(0.208 0.042 265.755);">
+                    Diagrama de Flujo de Navegación</h2>
+                <p class="text-slate-600 mb-8"
+                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px 0px 32px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); line-height: 1.5; color: oklch(0.446 0.043 257.281);">
+                    Visualización completa del flujo de navegación del sistema FichOn, mostrando las rutas disponibles
+                    para empleados (App Móvil) y administradores (Panel Web).</p>
+                <div class="overflow-x-auto mt-10"
+                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 40px 0px 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); overflow-x: auto;">
+                    <svg viewBox="0 0 1400 700" class="w-full h-auto" style="min-height: auto;">
+                        <g id="login-shared">
+                            <rect x="600" y="20" width="200" height="80" rx="8" fill="#8b5cf6" stroke="#7c3aed"
+                                stroke-width="2"></rect><text x="700" y="55" text-anchor="middle" fill="white"
+                                font-size="16" font-weight="bold">Login</text><text x="700" y="75" text-anchor="middle"
+                                fill="white" font-size="12">Autenticación</text>
+                        </g>
+                        <line x1="700" y1="100" x2="400" y2="150" stroke="#3b82f6" stroke-width="3"
+                            marker-end="url(#arrowblue)"></line>
+                        <line x1="700" y1="100" x2="1000" y2="150" stroke="#10b981" stroke-width="3"
+                            marker-end="url(#arrowgreen)"></line><text x="500" y="120" fill="#3b82f6" font-size="14"
+                            font-weight="bold">Empleado</text><text x="850" y="120" fill="#10b981" font-size="14"
+                            font-weight="bold">Administrador</text>
+                        <g id="mobile-section">
+                            <rect x="50" y="140" width="700" height="550" rx="12" fill="none" stroke="#3b82f6"
+                                stroke-width="2" stroke-dasharray="5,5"></rect>
+                            <rect x="60" y="130" width="150" height="30" fill="#3b82f6" rx="4"></rect><text x="135"
+                                y="151" text-anchor="middle" fill="white" font-size="14" font-weight="bold">APP MÓVIL -
+                                EMPLEADO</text>
+                            <rect x="250" y="180" width="200" height="80" rx="8" fill="#eff6ff" stroke="#3b82f6"
+                                stroke-width="2" class="cursor-pointer transition-all"></rect><text x="350" y="210"
+                                text-anchor="middle" fill="#1e40af" font-size="14"
+                                font-weight="bold">Dashboard</text><text x="350" y="230" text-anchor="middle"
+                                fill="#64748b" font-size="11">Inicio / Home</text><text x="350" y="245"
+                                text-anchor="middle" fill="#64748b" font-size="11">Botón Fichar</text>
+                            <rect x="80" y="320" width="180" height="70" rx="8" fill="#eff6ff" stroke="#3b82f6"
+                                stroke-width="2" class="cursor-pointer transition-all"></rect><text x="170" y="345"
+                                text-anchor="middle" fill="#1e40af" font-size="13" font-weight="bold">Registrar
+                                Fichaje</text><text x="170" y="365" text-anchor="middle" fill="#64748b"
+                                font-size="10">Entrada/Salida</text><text x="170" y="380" text-anchor="middle"
+                                fill="#64748b" font-size="10">Con Geolocalización</text>
+                            <rect x="290" y="320" width="180" height="70" rx="8" fill="#eff6ff" stroke="#3b82f6"
+                                stroke-width="2" class="cursor-pointer transition-all"></rect><text x="380" y="345"
+                                text-anchor="middle" fill="#1e40af" font-size="13"
+                                font-weight="bold">Historial</text><text x="380" y="365" text-anchor="middle"
+                                fill="#64748b" font-size="10">Fichajes Realizados</text><text x="380" y="380"
+                                text-anchor="middle" fill="#64748b" font-size="10">Filtros por fecha</text>
+                            <rect x="500" y="320" width="180" height="70" rx="8" fill="#eff6ff" stroke="#3b82f6"
+                                stroke-width="2" class="cursor-pointer transition-all"></rect><text x="590" y="345"
+                                text-anchor="middle" fill="#1e40af" font-size="13"
+                                font-weight="bold">Solicitudes</text><text x="590" y="365" text-anchor="middle"
+                                fill="#64748b" font-size="10">Vacaciones/Permisos</text><text x="590" y="380"
+                                text-anchor="middle" fill="#64748b" font-size="10">Nueva Solicitud</text>
+                            <rect x="520" y="440" width="180" height="70" rx="8" fill="#eff6ff" stroke="#3b82f6"
+                                stroke-width="2" class="cursor-pointer transition-all"></rect><text x="610" y="465"
+                                text-anchor="middle" fill="#1e40af" font-size="13" font-weight="bold">Nueva
+                                Solicitud</text><text x="610" y="485" text-anchor="middle" fill="#64748b"
+                                font-size="10">Formulario</text><text x="610" y="500" text-anchor="middle"
+                                fill="#64748b" font-size="10">Selección fechas</text>
+                            <rect x="185" y="450" width="180" height="70" rx="8" fill="#eff6ff" stroke="#3b82f6"
+                                stroke-width="2" class="cursor-pointer transition-all"></rect><text x="275" y="475"
+                                text-anchor="middle" fill="#1e40af" font-size="13" font-weight="bold">Mi
+                                Turno</text><text x="275" y="495" text-anchor="middle" fill="#64748b"
+                                font-size="10">Horario Asignado</text><text x="275" y="510" text-anchor="middle"
+                                fill="#64748b" font-size="10">Calendario</text>
+                            <rect x="250" y="580" width="180" height="70" rx="8" fill="#eff6ff" stroke="#3b82f6"
+                                stroke-width="2" class="cursor-pointer transition-all"></rect><text x="340" y="605"
+                                text-anchor="middle" fill="#1e40af" font-size="13" font-weight="bold">Mi
+                                Perfil</text><text x="340" y="625" text-anchor="middle" fill="#64748b"
+                                font-size="10">Datos Personales</text><text x="340" y="640" text-anchor="middle"
+                                fill="#64748b" font-size="10">Configuración</text>
+                            <line x1="350" y1="260" x2="170" y2="320" stroke="#3b82f6" stroke-width="2"
+                                marker-end="url(#arrowblue)"></line>
+                            <line x1="350" y1="260" x2="380" y2="320" stroke="#3b82f6" stroke-width="2"
+                                marker-end="url(#arrowblue)"></line>
+                            <line x1="350" y1="260" x2="590" y2="320" stroke="#3b82f6" stroke-width="2"
+                                marker-end="url(#arrowblue)"></line>
+                            <line x1="350" y1="260" x2="275" y2="450" stroke="#3b82f6" stroke-width="2"
+                                marker-end="url(#arrowblue)"></line>
+                            <line x1="350" y1="260" x2="340" y2="580" stroke="#3b82f6" stroke-width="2"
+                                marker-end="url(#arrowblue)"></line>
+                            <line x1="590" y1="390" x2="610" y2="440" stroke="#3b82f6" stroke-width="2"
+                                marker-end="url(#arrowblue)"></line>
+                        </g>
+                        <g id="web-section">
+                            <rect x="800" y="140" width="550" height="550" rx="12" fill="none" stroke="#10b981"
+                                stroke-width="2" stroke-dasharray="5,5"></rect>
+                            <rect x="810" y="130" width="180" height="30" fill="#10b981" rx="4"></rect><text x="900"
+                                y="151" text-anchor="middle" fill="white" font-size="14" font-weight="bold">PANEL WEB -
+                                ADMIN</text>
+                            <rect x="975" y="180" width="200" height="80" rx="8" fill="#ecfdf5" stroke="#10b981"
+                                stroke-width="2" class="cursor-pointer transition-all"></rect><text x="1075" y="210"
+                                text-anchor="middle" fill="#065f46" font-size="14" font-weight="bold">Dashboard
+                                Admin</text><text x="1075" y="230" text-anchor="middle" fill="#64748b"
+                                font-size="11">Métricas y Alertas</text><text x="1075" y="245" text-anchor="middle"
+                                fill="#64748b" font-size="11">Vista General</text>
+                            <rect x="830" y="320" width="180" height="70" rx="8" fill="#ecfdf5" stroke="#10b981"
+                                stroke-width="2" class="cursor-pointer transition-all"></rect><text x="920" y="345"
+                                text-anchor="middle" fill="#065f46" font-size="13" font-weight="bold">Gestión
+                                Empleados</text><text x="920" y="365" text-anchor="middle" fill="#64748b"
+                                font-size="10">Alta/Baja/Edición</text><text x="920" y="380" text-anchor="middle"
+                                fill="#64748b" font-size="10">Lista Completa</text>
+                            <rect x="1040" y="320" width="180" height="70" rx="8" fill="#ecfdf5" stroke="#10b981"
+                                stroke-width="2" class="cursor-pointer transition-all"></rect><text x="1130" y="345"
+                                text-anchor="middle" fill="#065f46" font-size="13" font-weight="bold">Validar
+                                Solicitudes</text><text x="1130" y="365" text-anchor="middle" fill="#64748b"
+                                font-size="10">Aprobar/Rechazar</text><text x="1130" y="380" text-anchor="middle"
+                                fill="#64748b" font-size="10">Pendientes</text>
+                            <rect x="830" y="560" width="180" height="70" rx="8" fill="#ecfdf5" stroke="#10b981"
+                                stroke-width="2" class="cursor-pointer transition-all"></rect><text x="920" y="585"
+                                text-anchor="middle" fill="#065f46" font-size="13" font-weight="bold">Gestión
+                                Turnos</text><text x="920" y="605" text-anchor="middle" fill="#64748b"
+                                font-size="10">Crear/Asignar</text><text x="920" y="620" text-anchor="middle"
+                                fill="#64748b" font-size="10">Horarios</text>
+                            <rect x="1040" y="440" width="180" height="70" rx="8" fill="#ecfdf5" stroke="#10b981"
+                                stroke-width="2" class="cursor-pointer transition-all"></rect><text x="1130" y="465"
+                                text-anchor="middle" fill="#065f46" font-size="13"
+                                font-weight="bold">Informes</text><text x="1130" y="485" text-anchor="middle"
+                                fill="#64748b" font-size="10">Generar PDF/CSV</text><text x="1130" y="500"
+                                text-anchor="middle" fill="#64748b" font-size="10">Exportar Datos</text>
+                            <rect x="830" y="440" width="180" height="70" rx="8" fill="#ecfdf5" stroke="#10b981"
+                                stroke-width="2" class="cursor-pointer transition-all"></rect><text x="920" y="465"
+                                text-anchor="middle" fill="#065f46" font-size="13" font-weight="bold">Detalle
+                                Empleado</text><text x="920" y="485" text-anchor="middle" fill="#64748b"
+                                font-size="10">Ficha Completa</text><text x="920" y="500" text-anchor="middle"
+                                fill="#64748b" font-size="10">Historial</text>
+                            <rect x="1040" y="560" width="180" height="70" rx="8" fill="#ecfdf5" stroke="#10b981"
+                                stroke-width="2" class="cursor-pointer transition-all"></rect><text x="1130" y="585"
+                                text-anchor="middle" fill="#065f46" font-size="13"
+                                font-weight="bold">Configuración</text><text x="1130" y="605" text-anchor="middle"
+                                fill="#64748b" font-size="10">Sistema</text><text x="1130" y="620" text-anchor="middle"
+                                fill="#64748b" font-size="10">Parámetros</text>
+                            <line x1="1075" y1="260" x2="920" y2="320" stroke="#10b981" stroke-width="2"
+                                marker-end="url(#arrowgreen)"></line>
+                            <line x1="1075" y1="260" x2="1130" y2="320" stroke="#10b981" stroke-width="2"
+                                marker-end="url(#arrowgreen)"></line>
+                            <line x1="1075" y1="260" x2="920" y2="560" stroke="#10b981" stroke-width="2"
+                                marker-end="url(#arrowgreen)"></line>
+                            <line x1="1075" y1="260" x2="1130" y2="440" stroke="#10b981" stroke-width="2"
+                                marker-end="url(#arrowgreen)"></line>
+                            <line x1="920" y1="390" x2="920" y2="440" stroke="#10b981" stroke-width="2"
+                                marker-end="url(#arrowgreen)"></line>
+                            <line x1="1075" y1="260" x2="1130" y2="560" stroke="#10b981" stroke-width="2"
+                                marker-end="url(#arrowgreen)"></line>
+                        </g>
+                        <defs>
+                            <marker id="arrowblue" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"
+                                markerUnits="strokeWidth">
+                                <path d="M0,0 L0,6 L9,3 z" fill="#3b82f6"></path>
+                            </marker>
+                            <marker id="arrowgreen" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"
+                                markerUnits="strokeWidth">
+                                <path d="M0,0 L0,6 L9,3 z" fill="#10b981"></path>
+                            </marker>
+                        </defs>
+                    </svg>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6"
+                style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); display: grid; grid-template-columns: repeat(2, minmax(0px, 1fr)); gap: 24px;">
+                <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-6 border border-blue-200"
+                    style="box-sizing: border-box; border: 1px solid oklch(0.882 0.059 254.128); margin: 0px; padding: 24px; outline-color: oklab(0.708 0 0 / 0.5); border-radius: 14px; --tw-gradient-position: to bottom right in oklab; background-image: linear-gradient(to right bottom, oklch(0.97 0.014 254.604) 0%, oklch(0.932 0.032 255.585) 100%); --tw-gradient-from: oklch(0.97 0.014 254.604); --tw-gradient-stops: to bottom right in oklab, oklch(0.97 0.014 254.604) 0%, oklch(0.932 0.032 255.585) 100%; --tw-gradient-to: oklch(0.932 0.032 255.585);">
+                    <h3 class="text-slate-900 mb-4 flex items-center gap-2"
+                        style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px 0px 16px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-size: inherit; font-weight: inherit; display: flex; align-items: center; gap: 8px; color: oklch(0.208 0.042 265.755);">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-smartphone w-5 h-5 text-blue-600" aria-hidden="true">
+                            <rect width="14" height="20" x="5" y="2" rx="2" ry="2"></rect>
+                            <path d="M12 18h.01"></path>
+                        </svg>Navegación App Móvil (Empleado)
+                    </h3>
+                    <ul class="space-y-2 text-slate-700"
+                        style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); list-style: none; color: oklch(0.372 0.044 257.287);">
+                        <li class="flex items-start gap-2"
+                            style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); --tw-space-y-reverse: 0; margin-block: 0px 8px; display: flex; align-items: flex-start; gap: 8px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-arrow-right w-4 h-4 mt-1 text-blue-600 flex-shrink-0"
+                                aria-hidden="true">
+                                <path d="M5 12h14"></path>
+                                <path d="m12 5 7 7-7 7"></path>
+                            </svg><span
+                                style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5);"><span
+                                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-weight: bolder;">Login</span>&nbsp;→
+                                Acceso seguro con credenciales de empleado.</span>
+                        </li>
+                        <li class="flex items-start gap-2"
+                            style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); --tw-space-y-reverse: 0; margin-block: 0px 8px; display: flex; align-items: flex-start; gap: 8px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-arrow-right w-4 h-4 mt-1 text-blue-600 flex-shrink-0"
+                                aria-hidden="true">
+                                <path d="M5 12h14"></path>
+                                <path d="m12 5 7 7-7 7"></path>
+                            </svg><span
+                                style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5);"><span
+                                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-weight: bolder;">Dashboard</span>&nbsp;→
+                                Panel principal con estado actual y accesos directos.</span>
+                        </li>
+                        <li class="flex items-start gap-2"
+                            style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); --tw-space-y-reverse: 0; margin-block: 0px 8px; display: flex; align-items: flex-start; gap: 8px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-arrow-right w-4 h-4 mt-1 text-blue-600 flex-shrink-0"
+                                aria-hidden="true">
+                                <path d="M5 12h14"></path>
+                                <path d="m12 5 7 7-7 7"></path>
+                            </svg><span
+                                style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5);"><span
+                                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-weight: bolder;">Fichaje</span>&nbsp;→
+                                Registro de entrada/salida con ubicación y hora.</span>
+                        </li>
+                        <li class="flex items-start gap-2"
+                            style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); --tw-space-y-reverse: 0; margin-block: 0px 8px; display: flex; align-items: flex-start; gap: 8px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-arrow-right w-4 h-4 mt-1 text-blue-600 flex-shrink-0"
+                                aria-hidden="true">
+                                <path d="M5 12h14"></path>
+                                <path d="m12 5 7 7-7 7"></path>
+                            </svg><span
+                                style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5);"><span
+                                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-weight: bolder;">Historial</span>&nbsp;→
+                                Consulta detallada de registros anteriores.</span>
+                        </li>
+                        <li class="flex items-start gap-2"
+                            style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); --tw-space-y-reverse: 0; margin-block: 0px 8px; display: flex; align-items: flex-start; gap: 8px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-arrow-right w-4 h-4 mt-1 text-blue-600 flex-shrink-0"
+                                aria-hidden="true">
+                                <path d="M5 12h14"></path>
+                                <path d="m12 5 7 7-7 7"></path>
+                            </svg><span
+                                style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5);"><span
+                                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-weight: bolder;">Solicitudes</span>&nbsp;→
+                                Gestión de vacaciones, permisos y bajas.</span>
+                        </li>
+                        <li class="flex items-start gap-2"
+                            style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); --tw-space-y-reverse: 0; margin-block: 0px 8px; display: flex; align-items: flex-start; gap: 8px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-arrow-right w-4 h-4 mt-1 text-blue-600 flex-shrink-0"
+                                aria-hidden="true">
+                                <path d="M5 12h14"></path>
+                                <path d="m12 5 7 7-7 7"></path>
+                            </svg><span
+                                style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5);"><span
+                                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-weight: bolder;">Mi
+                                    Turno</span>&nbsp;→ Visualización de horarios y calendario laboral.</span>
+                        </li>
+                        <li class="flex items-start gap-2"
+                            style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); --tw-space-y-reverse: 0; margin-block: 0px 8px; display: flex; align-items: flex-start; gap: 8px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-arrow-right w-4 h-4 mt-1 text-blue-600 flex-shrink-0"
+                                aria-hidden="true">
+                                <path d="M5 12h14"></path>
+                                <path d="m12 5 7 7-7 7"></path>
+                            </svg><span
+                                style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5);"><span
+                                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-weight: bolder;">Perfil</span>&nbsp;→
+                                Información personal y configuración.</span>
+                        </li>
+                        <li class="flex items-start gap-2"
+                            style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); display: flex; align-items: flex-start; gap: 8px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-arrow-right w-4 h-4 mt-1 text-blue-600 flex-shrink-0"
+                                aria-hidden="true">
+                                <path d="M5 12h14"></path>
+                                <path d="m12 5 7 7-7 7"></path>
+                            </svg><span
+                                style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5);">Navegación
+                                mediante&nbsp;<span
+                                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-weight: bolder;">bottom
+                                    navigation bar</span>&nbsp;persistente.</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-xl p-6 border border-green-200"
+                    style="box-sizing: border-box; border: 1px solid oklch(0.925 0.084 155.995); margin: 0px; padding: 24px; outline-color: oklab(0.708 0 0 / 0.5); border-radius: 14px; --tw-gradient-position: to bottom right in oklab; background-image: linear-gradient(to right bottom, oklch(0.982 0.018 155.826) 0%, oklch(0.962 0.044 156.743) 100%); --tw-gradient-from: oklch(0.982 0.018 155.826); --tw-gradient-stops: to bottom right in oklab, oklch(0.982 0.018 155.826) 0%, oklch(0.962 0.044 156.743) 100%; --tw-gradient-to: oklch(0.962 0.044 156.743);">
+                    <h3 class="text-slate-900 mb-4 flex items-center gap-2"
+                        style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px 0px 16px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-size: inherit; font-weight: inherit; display: flex; align-items: center; gap: 8px; color: oklch(0.208 0.042 265.755);">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-monitor w-5 h-5 text-green-600" aria-hidden="true">
+                            <rect width="20" height="14" x="2" y="3" rx="2"></rect>
+                            <line x1="8" x2="16" y1="21" y2="21"></line>
+                            <line x1="12" x2="12" y1="17" y2="21"></line>
+                        </svg>Navegación Panel Web (Administrador)
+                    </h3>
+                    <ul class="space-y-2 text-slate-700"
+                        style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); list-style: none; color: oklch(0.372 0.044 257.287);">
+                        <li class="flex items-start gap-2"
+                            style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); --tw-space-y-reverse: 0; margin-block: 0px 8px; display: flex; align-items: flex-start; gap: 8px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-arrow-right w-4 h-4 mt-1 text-green-600 flex-shrink-0"
+                                aria-hidden="true">
+                                <path d="M5 12h14"></path>
+                                <path d="m12 5 7 7-7 7"></path>
+                            </svg><span
+                                style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5);"><span
+                                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-weight: bolder;">Login</span>&nbsp;→
+                                Acceso seguro al panel de administración.</span>
+                        </li>
+                        <li class="flex items-start gap-2"
+                            style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); --tw-space-y-reverse: 0; margin-block: 0px 8px; display: flex; align-items: flex-start; gap: 8px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-arrow-right w-4 h-4 mt-1 text-green-600 flex-shrink-0"
+                                aria-hidden="true">
+                                <path d="M5 12h14"></path>
+                                <path d="m12 5 7 7-7 7"></path>
+                            </svg><span
+                                style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5);"><span
+                                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-weight: bolder;">Dashboard</span>&nbsp;→
+                                Visión general en tiempo real de la plantilla y alertas.</span>
+                        </li>
+                        <li class="flex items-start gap-2"
+                            style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); --tw-space-y-reverse: 0; margin-block: 0px 8px; display: flex; align-items: flex-start; gap: 8px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-arrow-right w-4 h-4 mt-1 text-green-600 flex-shrink-0"
+                                aria-hidden="true">
+                                <path d="M5 12h14"></path>
+                                <path d="m12 5 7 7-7 7"></path>
+                            </svg><span
+                                style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5);"><span
+                                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-weight: bolder;">Empleados</span>&nbsp;→
+                                Gestión integral de altas, bajas y expedientes.</span>
+                        </li>
+                        <li class="flex items-start gap-2"
+                            style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); --tw-space-y-reverse: 0; margin-block: 0px 8px; display: flex; align-items: flex-start; gap: 8px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-arrow-right w-4 h-4 mt-1 text-green-600 flex-shrink-0"
+                                aria-hidden="true">
+                                <path d="M5 12h14"></path>
+                                <path d="m12 5 7 7-7 7"></path>
+                            </svg><span
+                                style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5);"><span
+                                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-weight: bolder;">Solicitudes</span>&nbsp;→
+                                Centro de aprobación de vacaciones y permisos.</span>
+                        </li>
+                        <li class="flex items-start gap-2"
+                            style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); --tw-space-y-reverse: 0; margin-block: 0px 8px; display: flex; align-items: flex-start; gap: 8px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-arrow-right w-4 h-4 mt-1 text-green-600 flex-shrink-0"
+                                aria-hidden="true">
+                                <path d="M5 12h14"></path>
+                                <path d="m12 5 7 7-7 7"></path>
+                            </svg><span
+                                style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5);"><span
+                                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-weight: bolder;">Turnos</span>&nbsp;→
+                                Planificación de calendarios y asignación de horarios.</span>
+                        </li>
+                        <li class="flex items-start gap-2"
+                            style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); --tw-space-y-reverse: 0; margin-block: 0px 8px; display: flex; align-items: flex-start; gap: 8px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-arrow-right w-4 h-4 mt-1 text-green-600 flex-shrink-0"
+                                aria-hidden="true">
+                                <path d="M5 12h14"></path>
+                                <path d="m12 5 7 7-7 7"></path>
+                            </svg><span
+                                style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5);"><span
+                                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-weight: bolder;">Informes</span>&nbsp;→
+                                Generación y exportación de reportes de actividad.</span>
+                        </li>
+                        <li class="flex items-start gap-2"
+                            style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); --tw-space-y-reverse: 0; margin-block: 0px 8px; display: flex; align-items: flex-start; gap: 8px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-arrow-right w-4 h-4 mt-1 text-green-600 flex-shrink-0"
+                                aria-hidden="true">
+                                <path d="M5 12h14"></path>
+                                <path d="m12 5 7 7-7 7"></path>
+                            </svg><span
+                                style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5);"><span
+                                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-weight: bolder;">Configuración</span>&nbsp;→
+                                Ajustes globales de la empresa y permisos.</span>
+                        </li>
+                        <li class="flex items-start gap-2"
+                            style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); display: flex; align-items: flex-start; gap: 8px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-arrow-right w-4 h-4 mt-1 text-green-600 flex-shrink-0"
+                                aria-hidden="true">
+                                <path d="M5 12h14"></path>
+                                <path d="m12 5 7 7-7 7"></path>
+                            </svg><span
+                                style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5);">Navegación
+                                mediante&nbsp;<span
+                                    style="box-sizing: border-box; border: 0px solid rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; outline-color: oklab(0.708 0 0 / 0.5); font-weight: bolder;">sidebar
+                                    lateral</span>&nbsp;persistente.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
