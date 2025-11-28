@@ -56,6 +56,6 @@ Este diagrama permite visualizar la estructura general de **FichOn** y entender 
 
 Puedes ver el prototipo completo y el diagrama de navegación en el siguiente enlace:  
 
-👉 (Añade aquí la URL de tu proyecto en Figma o del diagrama publicado)
+(https://malcabaut.github.io/Diagrama-de-uso-v04/flujo.html)
 
 Además, en este repositorio se incluyen algunas capturas representativas del diseño.
